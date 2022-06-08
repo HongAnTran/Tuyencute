@@ -67,7 +67,7 @@ header h4 {
     left: 7%; 
     top: 40vh;
     font-size: 14px;
-    padding: 3px;
+    padding: 12px;
     -webkit-transition: all 0.1s ease-out;
   }
   #yes{
@@ -76,7 +76,22 @@ header h4 {
     left: 58%; 
     top: 40vh;
     font-size: 14px;
-    padding: 3px;
+    padding: 12px;
     -webkit-transition: all 0.3s ease-out;
+  }
+}
+
+.swal2-image{
+  object-fit: cover;
+}
+.swal2-center{
+  background-position-y:-99px !important;
+    /* background-size: contain!important; */
+}
+
+@media  (max-width: 700px) {
+  .swal2-center{
+    background-position-y:-73px !important;
+    background-size: contain!important;
   }
 }

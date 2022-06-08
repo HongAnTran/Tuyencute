@@ -7,7 +7,7 @@ const textConfig = {
   text6: "Nhớ ơi là  nhớ <3",
   text7: "lí do cậu thích tớ đi :vvvv",
   text8: "Gửi cho tớ <3",
-  text9: "Vì cậu cute vlllll",
+  text9: "Vì anh Ân cute vlllll",
   text10: "Ân biết mà ^^ Yêu Tuỳn 300.000",
   text11:
     "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho Ân đi nàooo",
@@ -35,9 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/t3.jpg",
+      imageUrl: "img/t2.jpg",
       imageWidth: 300,
       imageHeight: 300,
+      objectFit: 'cover',
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
@@ -118,10 +119,12 @@ $(document).ready(function () {
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
-                    left top
+                    url("img/ccc.gif")
+                     top
                     no-repeat
+                
                   `,
+                  
       showCancelButton: false,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
