@@ -35,10 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/t2.jpg",
+      imageUrl: "img/t3.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      objectFit: 'cover',
+      // objectFit: 'cover',
       background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {

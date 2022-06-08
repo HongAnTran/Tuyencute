@@ -82,7 +82,7 @@ header h4 {
 }
 
 .swal2-image{
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .swal2-center{
   background-position-y:-99px !important;
